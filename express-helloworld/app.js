@@ -12,3 +12,7 @@ app.listen(8080, function () {
 app.get('/mars', function(req, res) {
   res.send('Hello Mars!\n');
 });
+
+app.get('/pluto', function(req, res) {
+  res.send('Hello Pluto!\n');
+});
